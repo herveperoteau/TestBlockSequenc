@@ -21,6 +21,7 @@
 		09384F6417BB46CA00B3EF22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09384F4617BB46CA00B3EF22 /* UIKit.framework */; };
 		09384F6C17BB46CA00B3EF22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09384F6A17BB46CA00B3EF22 /* InfoPlist.strings */; };
 		09384F6E17BB46CA00B3EF22 /* TestBlockSequencTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09384F6D17BB46CA00B3EF22 /* TestBlockSequencTests.m */; };
+		09384F7917BB46F500B3EF22 /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09384F7817BB46F500B3EF22 /* MyManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		09384F6917BB46CA00B3EF22 /* TestBlockSequencTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestBlockSequencTests-Info.plist"; sourceTree = "<group>"; };
 		09384F6B17BB46CA00B3EF22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09384F6D17BB46CA00B3EF22 /* TestBlockSequencTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlockSequencTests.m; sourceTree = "<group>"; };
+		09384F7717BB46F500B3EF22 /* MyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
+		09384F7817BB46F500B3EF22 /* MyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,13 @@
 		09384F4817BB46CA00B3EF22 /* TestBlockSequenc */ = {
 			isa = PBXGroup;
 			children = (
+				09384F5417BB46CA00B3EF22 /* Main.storyboard */,
 				09384F5117BB46CA00B3EF22 /* AppDelegate.h */,
 				09384F5217BB46CA00B3EF22 /* AppDelegate.m */,
-				09384F5417BB46CA00B3EF22 /* Main.storyboard */,
 				09384F5717BB46CA00B3EF22 /* ViewController.h */,
 				09384F5817BB46CA00B3EF22 /* ViewController.m */,
+				09384F7717BB46F500B3EF22 /* MyManager.h */,
+				09384F7817BB46F500B3EF22 /* MyManager.m */,
 				09384F5A17BB46CA00B3EF22 /* Images.xcassets */,
 				09384F4917BB46CA00B3EF22 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				09384F5917BB46CA00B3EF22 /* ViewController.m in Sources */,
 				09384F5317BB46CA00B3EF22 /* AppDelegate.m in Sources */,
 				09384F4F17BB46CA00B3EF22 /* main.m in Sources */,
+				09384F7917BB46F500B3EF22 /* MyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
